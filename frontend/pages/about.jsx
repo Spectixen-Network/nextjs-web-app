@@ -1,12 +1,13 @@
-import Head from 'next/head'
+import Head from "next/head"
 
 const about = () => {
   return (
     <div>
-      <Head>
-        <title>SPXN | About</title>
-      </Head>
-      <h1>About page</h1>
+        <Head>
+        <title>STXN | About us</title>
+        <meta name='keywords' contect='STXN, Spectixen, spectixen, network'/>
+        </Head>
+        <h1>About</h1>
     </div>
   )
 }
