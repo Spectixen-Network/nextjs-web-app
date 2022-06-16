@@ -1,7 +1,15 @@
-.navbar{
-    position: absolute;
+#navbar{
     background-color: rgba(83, 83, 83, 0.2);
     backdrop-filter: blur(5px);
+    min-height: 5vh;
+}
+
+#nav-bar {
+    padding: 0;
+}
+
+.container-fluid{
+    padding: 0;
 }
 
 .navbar li{

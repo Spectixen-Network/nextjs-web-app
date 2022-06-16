@@ -3,21 +3,21 @@ import styles from '../styles/Navbar.module.css'
 const NavbarDefault = () => {
   return (
     <div className={styles.navbar}>
-      <nav class="sticky-top">
-            <div class="container-fluid nav-bar-content" id="nav-bar">
-                <div class="navbar">
-                    <a href="/" class="navbar-brand">
-                        <img src="/images/system/SpectixenNetwork_logo_bez_pozadi_400x400.png" alt="" class="logo" />
-                        <span class="navbar-text">STXN</span>
+      <nav className="sticky-top">
+            <div className="container-fluid nav-bar-content" id="nav-bar">
+                <div className="navbar">
+                    <a href="/" className="navbar-brand">
+                        <img src="./images/system/background.png" alt="" class="logo" />
+                        <span className="navbar-text">STXN</span>
                     </a>
-                    <ul class="nav justify-content-center">
-                        <li class="nav-item">
-                            <a href="/index.php" class="nav-link">Home</a>
+                    <ul className="nav justify-content-center">
+                        <li className="nav-item">
+                            <a href="/index.php" className="nav-link">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="/creators.php" class="nav-link">Creators</a>
+                        <li className="nav-item">
+                            <a href="/creators.php" className="nav-link">Creators</a>
                         </li>
-                        <button type="button" id="loginButton" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        <button type="button" id="loginButton" className="btn btn-success" data-bs-toggle="modal" data-bs-target="#loginModal">
                             Log In
                         </button>
                     </ul>
